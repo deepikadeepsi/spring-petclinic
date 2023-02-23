@@ -4,9 +4,8 @@ phases:
   build:
     commands:
       - echo Build completed on `date`
-      - cd spring-petclinic
       - mvn package
-
+      - ls -la
 artifacts:
   files:
     - '**/*'
